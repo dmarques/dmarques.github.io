@@ -15,7 +15,21 @@ export default class Timeline extends Component {
             <div className="row">
               <div className="col-md-12">
                 <div className="timeline-centered">
+
                 <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-2">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>System Engineer at Karasawanouki Services <span>2020-At moment</span></h2>
+                        <p>I currently work as a System Engineer at <a href="https://www.karasawanouki.co.jp/" target="_blank" rel="noopener noreferrer" >Karasawanouki Services</a> company.</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-3">
                         <i className="icon-pen2" />
@@ -27,6 +41,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-1">
@@ -38,6 +53,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-2">
@@ -49,6 +65,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInTop">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-4">
@@ -60,6 +77,7 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+
                   <article className="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-5">
@@ -71,12 +89,14 @@ export default class Timeline extends Component {
                       </div>
                     </div>
                   </article>
+
                   <article className="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-none">
                       </div>
                     </div>
                   </article>
+
                 </div>
               </div>
             </div>
