@@ -4,7 +4,6 @@ import Sidebar from './components/sidebar';
 import About from './components/about';
 import Timeline from './components/timeline';
 
-
 function App() {
   return (
     <div id="colorlib-page">

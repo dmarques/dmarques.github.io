@@ -16,15 +16,43 @@ export default class Timeline extends Component {
               <div className="col-md-12">
                 <div className="timeline-centered">
 
-                <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-4">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Software Engineer at Onkuri Inc.  <span>2022-At moment</span></h2>
+                        <p>I currently work as a Software Engineer at <a href="https://onkuri-web.com" target="_blank" rel="noopener noreferrer" >Onkuri</a> company. </p> 
+                        <p>Development of a Web application (SaaS) for the management and control of medical equipment called <a href="https://www.taggline-japan.com" target="_blank" rel="noopener noreferrer" >Taggline Support</a>. Backend (Rest API in Golang) and frontend (Laravel) development and Development of the recruitment website for Ophthalmologists called <a href="https://contact.ne.jp" target="_blank" rel="noopener noreferrer" >Contact Career</a>. Platform development with Laravel and Vue JS.</p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
+                    <div className="timeline-entry-inner">
+                      <div className="timeline-icon color-5">
+                        <i className="icon-pen2" />
+                      </div>
+                      <div className="timeline-label">
+                        <h2>Software Engineer at Site Engine Inc.  <span>2021-2022</span></h2>
+                        <p>I worked as a Software Engineer at <a href="https://www.siteengine.co.jp" target="_blank" rel="noopener noreferrer" >Site Engine</a> company. </p> 
+                        <p>I was responsible for web application development of the online test platform called <a href="https://rakutesu.com" target="_blank" rel="noopener noreferrer" >Rakutesu </a> and development and support in Web Application (SaaS) for article writers called <a href="https://cakutama.com" target="_blank" rel="noopener noreferrer" >Cakutama</a></p>
+                        <p></p>
+                      </div>
+                    </div>
+                  </article>
+
+                  <article className="timeline-entry animate-box" data-animate-effect="fadeInBottom">
                     <div className="timeline-entry-inner">
                       <div className="timeline-icon color-2">
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>System Engineer at Karasawanouki Services <span>2020-At moment</span></h2>
-                        <p>I currently work as a System Engineer at <a href="https://www.karasawanouki.co.jp/" target="_blank" rel="noopener noreferrer" >Karasawanouki Services</a> company.</p>
-                        <p></p>
+                        <h2>System Engineer at Karasawanouki Services <span>2020-2021</span></h2>
+                        <p>I worked as a System Engineer at <a href="https://www.karasawanouki.co.jp/" target="_blank" rel="noopener noreferrer" >Karasawanouki Services</a> company with Web application development called Noukinavi. I was responsible for the Development of Back-End applications, design and development using Golang, PHP, NodeJS languages. </p>
+                        <p>I was also responsible for the Noukinavi web system server management (Webserver, Backup, Maintenance), documentation, procedures, reports in general, Developers Wiki documentation and Github management.</p>
                       </div>
                     </div>
                   </article>
