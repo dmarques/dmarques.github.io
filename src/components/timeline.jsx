@@ -22,7 +22,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Software Engineer at Onkuri Inc.  <span>2022-At moment</span></h2>
+                        <h2>Software Engineer at Onkuri Inc.  <span>2022-2023</span></h2>
                         <p>I currently work as a Software Engineer at <a href="https://onkuri-web.com" target="_blank" rel="noopener noreferrer" >Onkuri</a> company. </p> 
                         <p>Development of a Web application (SaaS) for the management and control of medical equipment called <a href="https://www.taggline-japan.com" target="_blank" rel="noopener noreferrer" >Taggline Support</a>. Backend (Rest API in Golang) and frontend (Laravel) development and Development of the recruitment website for Ophthalmologists called <a href="https://contact.ne.jp" target="_blank" rel="noopener noreferrer" >Contact Career</a>. Platform development with Laravel and Vue JS.</p>
                         <p></p>
